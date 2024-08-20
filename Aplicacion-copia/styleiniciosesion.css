@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; /* Asegúrate de que la fuente Montserrat esté disponible o importada */
+    background: linear-gradient(150deg, #6C3483, #58D68D);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 20px; /* Añadido margen para evitar que se toque el borde del contenedor */
+}
+
+.formulario h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #6C3483;
+    margin: 30;
+    font-size: 28px;
+    color: #6C3483;
+    font-weight: 600;
+}
+
+.formulario form {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form .username,
+form .contrasena {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.username input,
+.contrasena input {
+    width: 100%;
+    padding: 15px;
+    height: 50px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.username input:focus,
+.contrasena input:focus {
+    border-color: #6C3483;
+    box-shadow: 0 0 8px rgba(108, 52, 131, 0.3);
+}
+
+.username label,
+.contrasena label {
+    position: absolute;
+    top: 15px; /* Ajustado para alinearse mejor dentro del input */
+    left: 15px;
+    color: #adadad;
+    font-size: 16px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/* Efecto de etiqueta animado */
+.username input:focus + span ::before,
+.username input:focus + span ::before,
+.contrasena input:focus + span ::before,
+.contrasena input:focus + span ::before {
+    top: -10px;
+    left: 15px;
+    font-size: 12px;
+    color: #6C3483;
+    font-weight: 500;
+}
+
+/* Estilo para el enlace de recordar contraseña */
+.recordar {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin: -5px 0 20px 5px;
+    color: #6C3483;
+    cursor: pointer;
+}
+
+.recordar:hover{
+    text-decoration: underline;
+}
+
+.recordar a {
+    color: #6C3483;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.recordar a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #6C3483;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 600;
+    margin-top: 10px; /* Añadido margen superior para separar del contenido anterior */
+}
+
+input[type="submit"]:hover {
+    background-color: #5a2d77;
+    transform: translateY(-2px);
+}
+
+input[type="submit"]:active {
+    background-color: #4a1a55;
+    transform: translateY(0);
+}
+
+/* Estilo para el enlace de registro */
+.registrarse {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.registrarse a {
+    color: #6C3483;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.registrarse a:hover {
+    text-decoration: underline;
+}

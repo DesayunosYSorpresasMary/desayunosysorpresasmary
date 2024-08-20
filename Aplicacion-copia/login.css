@@ -1,0 +1,140 @@
+/* Importar fuente Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa; /* Fondo general */
+    color: #333; /* Color del texto general */
+}
+
+/* Franja superior con color */
+.Franja-color {
+    height: 87px;
+    background-color: hsl(325, 96%, 71%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Franja-color h1 {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Encabezado con imagen de fondo */
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url('Images_index/bg3.jpg'); /* Ajusta la ruta de la imagen si es necesario */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+/* Contenedor del formulario de inicio de sesión */
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Estilo del formulario de inicio de sesión */
+.login-form p {
+    margin-bottom: 1em;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.login-form .error {
+    color: #d9534f;
+    margin-bottom: 1em;
+}
+
+.login-form button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #CE967B; /* Color de fondo del botón */
+    color: #F9FAFC; /* Color del texto del botón */
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave para hover */
+}
+
+.login-form button:hover {
+    background-color: #d36f3e; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilo para el enlace de registro y el botón de regresar */
+.registrarse, .regresar {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.btn-regresar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Transición suave para hover */
+}
+
+.btn-regresar:hover {
+    background-color: #d36f3e; /* Cambio de color al pasar el ratón */
+}
+
+/* Pie de página */
+footer {
+    background-color: #323337; /* Fondo oscuro para el pie de página */
+    color: #F9FAFC; /* Color del texto del pie de página */
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em; /* Margen superior para el pie de página */
+}

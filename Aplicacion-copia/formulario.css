@@ -1,0 +1,256 @@
+#form {
+    font: 1em sans-serif;
+    max-width: 400px;
+    text-align: center;
+    margin-left: 500px;
+h1{
+    text-align: center;
+    background-color: rgb(255, 251, 251);
+    margin-left: 20px;
+  }
+  }
+  #p{
+    color: rgb(71, 13, 163);
+    margin: 20px;
+    font-size: larger;
+
+  }
+  p > label {
+    display: inline-block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea,
+  fieldset {
+    width : 80%;
+    border: 2px solid #922c0d;
+    box-sizing: border-box;
+  }
+  
+
+  input:focus:invalid {
+    box-shadow: none;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 70;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.Franja-color{
+    height: 87px;
+    background-color:  hsl(325, 96%, 71%);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.89),
+        rgba(0,0,0,0.7)),
+        url(Images_index/bg3.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    top: 20px;
+    left: 2px;
+    width: 140px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left:-35px ;
+   
+}
+#whatsapp{
+    top: 33px;
+    left: 2px;
+    width: 35px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 1180px ;
+    z-index: 99;
+    display: inline-block;
+    margin-top: -10px;
+    position:absolute;
+   
+}
+
+
+
+
+
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+    
+}
+
+.menu .navbar ul li a{
+
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #CE967B;
+}
+
+#menu{
+    display: none;
+}
+s
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+
+.product {
+   
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #131212;
+    border-radius: 8px;
+    background-color: #fffeff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    max-width: 400px;
+}
+
+.product img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-title {
+    color: #912222;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.btn-1:hover{
+    background-color: #d36f3e;
+}
+
+.Desayunos{
+    padding: 100px 0;
+    background-color:  #ff9ff9;
+    position: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(33.33%-20px);
+}
+
+.Desayunos-content{
+    text-align: center;
+}
+
+.Desayunos-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 16px;
+    color:#414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+    
+}

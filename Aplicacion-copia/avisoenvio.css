@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 1em 0;
+}
+
+.header .logo img {
+    width: 150px;
+}
+
+.menu-icono {
+    width: 30px;
+    height: auto;
+}
+
+/* Header content */
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 1em; /* Espacio entre el título y el botón */
+}
+
+/* Button styles */
+.btn-regresar {
+    display: inline-block;
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    padding: 0.5em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 1em; /* Espacio encima del botón */
+    border: 1px solid #007bff; /* Borde azul para coincidir con el fondo */
+}
+
+.btn-regresar:hover {
+    background-color: #0056b3; /* Azul oscuro en el hover */
+    border-color: #0056b3; /* Borde azul oscuro en el hover */
+}
+
+/* Remove admin-actions section styles */
+.admin-actions {
+    display: none; /* Hide the section */
+}
+
+.admin-actions-content {
+    display: none; /* Hide the content */
+}
+
+/* Other styles */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f8f9fa;
+}
+
+.Servicios-content {
+    padding: 2em;
+}
+
+.Servicios-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Servicios-1, .Servicios-2, .Servicios-3 {
+    text-align: center;
+}
+
+.Servicios-1 img, .Servicios-2 img, .Servicios-3 img {
+    width: 100px;
+    height: auto;
+}

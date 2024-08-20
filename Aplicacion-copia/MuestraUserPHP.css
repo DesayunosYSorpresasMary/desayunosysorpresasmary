@@ -1,0 +1,168 @@
+/* Importar fuente Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa; /* Fondo general */
+    color: #333; /* Color del texto general */
+}
+
+/* Franja de color para la parte superior */
+.Franja-color {
+    height: 50px; /* Ajusta la altura para hacerla más delgada */
+    background-color: hsl(325, 96%, 71%); /* Color rosa */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Encabezado con imagen de fondo */
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.89),
+        rgba(0,0,0,0.7)),
+        url(Images_index/bg3.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh; /* Reduce la altura para que la sección de la tabla esté más arriba */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0; /* Espaciado interno para centrar el contenido */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+/* Menú de navegación */
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 140px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+#menu {
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+/* Contenido del encabezado */
+.header-content h1 {
+    font-size: 2em; /* Ajusta el tamaño del texto */
+    line-height: 2.5em;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 90%;
+    margin: 2em auto; /* Centrar la tabla */
+    border-collapse: collapse; /* Eliminar espacios entre celdas */
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+
+th, td {
+    border: 1px solid #dee2e6; /* Borde gris claro para celdas */
+    padding: 0.75em; /* Espaciado interno de celdas */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+th {
+    background-color: #CE967B; /* Color de fondo de los encabezados */
+    color: #F9FAFC; /* Color del texto en los encabezados */
+    font-weight: 600; /* Peso de fuente en los encabezados */
+}
+
+td {
+    background-color: #ffffff; /* Color de fondo de las celdas */
+}
+
+/* Zebra striping y hover effect */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Fondo gris claro para filas impares */
+}
+
+tbody tr:hover {
+    background-color: #CE967B; /* Fondo rosa al pasar el ratón */
+    color: #ffffff; /* Color del texto en filas hover */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #007bff; /* Color de los enlaces */
+    text-decoration: none; /* Eliminar subrayado */
+    font-weight: 500; /* Peso de fuente para enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Botón para redirigir a indexadmin.html */
+.button-container {
+    text-align: center; /* Centrar el botón */
+    margin: 2em auto; /* Margen superior e inferior para separación */
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #CE967B; /* Color de fondo del botón */
+    color: #F9FAFC; /* Color del texto del botón */
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+    transition: background-color 0.3s; /* Transición suave para hover */
+}
+
+.btn:hover {
+    background-color: #d36f3e; /* Cambio de color al pasar el ratón */
+}
+
+/* Footer */
+footer {
+    background-color: #323337; /* Fondo oscuro para el pie de página */
+    color: #F9FAFC; /* Color del texto del pie de página */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 2em; /* Margen superior para el pie de página */
+}

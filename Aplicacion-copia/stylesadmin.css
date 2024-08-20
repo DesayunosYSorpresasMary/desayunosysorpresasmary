@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.Franja-color {
+    height: 87px;
+    background-color: hsl(325, 96%, 71%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.89),
+        rgba(0,0,0,0.7)),
+        url(Images_index/bg3.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 140px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+#menu {
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.admin-actions {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.admin-actions-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-admin {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn-admin:hover {
+    background-color: #d36f3e;
+}
+
+.Desayunos {
+    padding: 100px 0;
+    background-color: #ff9ff9;
+}
+
+.Desayunos-content {
+    text-align: center;
+}
+
+.Desayunos-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.Desayuno-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Desayuno-1 {
+    padding: 0 25px;
+}
+
+.Desayuno-1 img {
+    width: 200px;
+}
+
+.Desayuno-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Desayuno-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.Servicios {
+    background-image: linear-gradient(
+        rgba(194, 39, 39, 0.7),
+        hsl(325, 96%, 71%)),
+        url(images/bg3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px 0;
+}
+
+.Servicios-content {
+    text-align: center;
+}
+
+.Servicios-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.Servicios-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.Servicios-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Servicios-1 {
+    padding: 0 100px;
+}
+
+.Servicios-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.Servicios-1 h3 {
+    color: #f3f3f3;
+}
+
+.Servicios-2 img {
+    width: 140px;
+}
+
+.Servicios-3 {
+    padding: 0 100px;
+}
+
+.Servicios-3 img {
+    width: 30px;
+    margin-bottom: 15px;
+}
+
+.Servicios-3 h3 {
+    color: #f3f3f3;
+}
+
+footer {
+    background-color: #323337;
+    color: #F9FAFC;
+    text-align: center;
+    padding: 20px 0;
+}
